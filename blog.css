@@ -1,0 +1,137 @@
+main {
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.background {
+    background-image: url(blog.jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.sec-blog {
+    padding-top: 40px;
+    place-content: center;
+    align-items: center;
+    line-height: 100px;
+
+}
+
+.sec-blog div h1 {
+    font-weight: 700px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.sec-all {
+    margin-top: 20px;
+    margin-left: 30px;
+    background: transparent;
+   margin-bottom: 50px;
+    border-radius: 6px;
+    align-content: center;
+}
+
+.sec-all div {
+    padding: 10px;
+}
+
+.sec-all div button{
+    font: 1em sans-serif;
+    padding: 5.5px;
+    border-radius: 6px;
+    border: 1px solid blue;
+    background: transparent;
+}
+
+.sec-all div button a {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.sec-all div button:hover {
+    background: rgb(10, 70, 250);
+}
+
+.sec-all div input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid blue;
+    width: 300px;
+}
+
+.sec-pop {
+    background: white;
+    align-content: center;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.sec-pop p {
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+#achh{
+    font-size: 45px;
+    padding-left: 20px;
+   
+}
+.back {
+    margin-left: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.container div {
+    display: flex;
+    color: white;
+
+}
+
+.container .no {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    object-fit: cover;
+    flex-direction: column;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.container .no h5 {
+    font-size: 20px;
+}
+
+.container .gap {
+    gap: 30px;
+}
+@media (max-width: 453px) {
+.sec-all button{
+margin-top: 8px;
+}
+}
+@media (max-width: 375px) {
+    .sec-all div input{
+   width: 200px;
+    }
+}

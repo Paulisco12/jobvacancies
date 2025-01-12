@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url(24-goals.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+
+}
+
+.tag-line {
+    padding-top: 70px;
+    margin-left: 20px;
+    display: grid;
+    gap: 30px;
+    color: white;
+}
+
+.tag-line h1 {
+    font-size: 50px;
+}
+.tag-line h2{
+    padding-bottom: 15px;
+}
+
+#buttons {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#buttons .email {
+    padding-top: 20px;
+}
+
+.email button,
+input {
+    padding: 8px;
+    margin-right: 10px;
+    font-weight: 900;
+    border: 1px solid rgb(10, 70, 250);
+}
+
+.email input {
+    width: 300px;
+}
+
+.email button {
+    color: rgb(10, 70, 250);
+    transition: .3s ease-in-out;
+}
+
+.email button:hover {
+    color: white;
+    background: rgb(10, 70, 250);
+}
+@media (max-width: 640px) {
+    .tag-line{
+        padding-top: 40px;
+      }
+}
+@media (max-width: 450px){
+    #buttons{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .email{
+ display: block;
+}
+    .email button{
+    margin-top: 20px;
+}
+#ach{
+    padding-top: 25px;
+}
+}
+@media (max-width: 439px) {
+  #get{
+    font-size: 40px;
+  }
+  .tag-line{
+    padding-top: 40px;
+  }
+}
+@media (max-width: 375px) {
+    #get{
+        font-size: 30px;
+      }
+      .tag-line{
+        padding-top: 30px;
+      }
+}
